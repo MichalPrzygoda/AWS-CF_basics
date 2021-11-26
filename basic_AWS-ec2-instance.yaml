@@ -1,5 +1,3 @@
-Description: Basic template that defines a single Amazon EC2 instance with a security group that allows SSH traffic on port 22 on Linux Virtual Machine.
-
 Parameters:
   VpcId: 
     Description: VPC id 
