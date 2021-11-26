@@ -1,0 +1,10 @@
+Parameters:
+  VpcId:
+    Description: VPC id
+    Type: AWS::EC2::VPC::Id
+    Default: vpc-4b797522
+
+    SubnetId:
+      Description: Subnet Id where instance will create
+      Type: AWS::EC2::Subnet::Id
+      Default: subnet-ec7e3c97
